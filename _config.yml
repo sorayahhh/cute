@@ -1,0 +1,20 @@
+title: My Jekyll Site
+description: >- 
+  Welcome to my Jekyll site. This site is built with Jekyll and GitHub Pages.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://sorayahhh.github.io/cute" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+theme: minima
+
+# Exclude these files from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - node_modules
+  - vendor/bundle
+  - vendor/cache
+  - vendor/gems
+  - vendor/ruby
